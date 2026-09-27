@@ -1,0 +1,19 @@
+[package]
+name = "bot-lambda"
+version = "0.1.0"
+edition.workspace = true
+
+[dependencies]
+theo-core.workspace = true
+tokio.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+anyhow.workspace = true
+reqwest.workspace = true
+aws-config.workspace = true
+aws-sdk-bedrockruntime.workspace = true
+aws-sdk-s3.workspace = true
+lambda_http.workspace = true
+lambda_runtime.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
